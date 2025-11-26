@@ -16,8 +16,11 @@ public class Calculator {
 
         int sub = num1 - num2;
 
+        int div = num1/num2;
+
         System.out.println("Addition = " + add);
         System.out.println("Subtraction  = " + sub);
+        System.out.println("Division  = " + div);
 
         sc.close();
     }
